@@ -1,0 +1,17 @@
+<html>
+<head>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+	<script type="text/javascript" src="/javascripts/dynamic-forms.js"></script>	
+	<script type="text/javascript" src="/javascripts/app/app.js"></script>
+	<script type="text/javascript" src="/javascripts/app/indexController.js"></script>
+</head>
+<body ng-app="dynamicApp">
+	<div ng-controller="indexCtrl">
+		Hello world.
+		<dynamic-form template="formTemplate"
+	        ng-model="formData"
+	        ng-submit="processForm()">
+	    </dynamic-form>
+	</div>
+</body>
+</html>

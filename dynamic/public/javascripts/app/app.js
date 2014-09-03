@@ -1,0 +1,1 @@
+var dynamicApp = angular.module('dynamicApp',['dynform','indexController']);
